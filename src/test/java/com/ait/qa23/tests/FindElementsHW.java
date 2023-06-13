@@ -39,9 +39,11 @@ public class FindElementsHW {
 
         driver.findElement(By.cssSelector("[class^='ajax']"));
 
+        driver.findElement(By.cssSelector("[value='Subscribe']"));
+
         driver.findElement(By.cssSelector("[id*='flyout']"));
 
-        driver.findElement(By.cssSelector("[id='bar-notification']"));
+        driver.findElement(By.cssSelector("[class='poll-display-text']"));
 
 
 
@@ -62,17 +64,18 @@ public class FindElementsHW {
 
         driver.findElement(By.xpath("//*[@ class='header']"));
 
-        //driver.findElement(By.xpath("//*[@ class='header-links-wrapper')]"));
+        driver.findElement(By.xpath("//*[@ class='header-links-wrapper']"));
 
         driver.findElement(By.xpath("//*[contains(., 'ajax')]"));
 
+        driver.findElement(By.xpath("//*[@ value='Subscribe']"));
+
         driver.findElement(By.xpath("//*[contains(., 'flyout')]"));
 
-        //driver.findElement(By.xpath("//*[@ id='bar-notification')]"));
+        driver.findElement(By.xpath("//*[contains(.,'Community poll')]"));
 
 
 
-        //driver.findElement(By.xpath("//*[contains(.,'Your email address:')]"));
 
 
     }
