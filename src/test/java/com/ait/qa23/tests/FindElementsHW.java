@@ -43,7 +43,7 @@ public class FindElementsHW {
 
         driver.findElement(By.cssSelector("[id='bar-notification']"));
 
-        //driver.findElement(By.cssSelector("input.button-1.password-recovery-button[value='Recover']"));
+
 
 
 
